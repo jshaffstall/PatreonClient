@@ -22,13 +22,13 @@ Clone this repo into the extension directory.
 
 ## Configuration
 
-### Patreon Client
+*Patreon Client*
 
 Create a Patreon client at https://www.patreon.com/platform/documentation/clients
 
 For the Redirect URI, use the Special:PatreonClient/callback page of your wiki.  So if your wiki main page is at  http://example.com/wiki/index.php/Main_Page then your redirect URI would be http://example.com/wiki/index.php/Special:PatreonClient/callback
 
-### LocalSettings.php
+*LocalSettings.php*
 
 Add to the bottom of your LocalSettings.php file:
 
@@ -45,7 +45,7 @@ By default this will add a Login with Patreon link to the wiki.  If you would li
 $wgPatreonClient['configuration']['login_link_text'] = "Your desired link text";
 ```
 
-### MediaWiki web updater
+*MediaWiki web updater*
 
 Run the Media Wiki web updater.  If your wiki's main page is at http://example.com/wiki/index.php/Main_Page then the web updater is at http://example.com/wiki/mw-config
 
