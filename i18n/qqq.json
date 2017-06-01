@@ -1,0 +1,8 @@
+{
+	"patreon-client-desc": "Description of extension",
+    "patreonclient": "Link name for special pages",
+    "patreonclient-link-text": "Default text to display for the login link",
+    "patreonclient-login-header": "Header text on default page",
+  	"patreonclient-you-can-login-to-this-wiki-using-patreon": "Explain to user that Patreon link is available",
+    "patreonclient-youre-already-loggedin": "Message displayed on the default page"
+}

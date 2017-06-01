@@ -1,0 +1,8 @@
+{
+	"patreonclient-desc": "Allow users to log into the wiki using their Patreon account.  Your redirect special page is Special:PatreonClient/callback",
+	"patreonclient": "PatreonClient",
+    "patreonclient-link-text": "Login with Patreon",
+    "patreonclient-login-header": "Patreon Login",
+    "patreonclient-you-can-login-to-this-wiki-using-patreon": "You can login to this wiki using your Patreon account",
+    "patreonclient-youre-already-loggedin": "You are already logged in."
+}

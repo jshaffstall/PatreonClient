@@ -1,0 +1,31 @@
+{
+	"name": "PatreonClient",
+	"version": "0.1",
+	"author": [
+		"[http://jayshaffstall.com/ Jay Shaffstall]"
+	],
+	"descriptionmsg": "patreonclient-desc",
+	"license-name": "LGPL-3.0",
+	"type": "other",
+	"AutoloadClasses": {
+		"PatreonClientHooks": "PatreonClient.php",
+		"SpecialPatreonClient": "SpecialPatreonClient.php"
+	},
+	"Hooks": {
+		"PersonalUrls": [
+			"PatreonClientHooks::onPersonalUrls"
+		],
+        "LoadExtensionSchemaUpdates": [
+			"PatreonClientHooks::onLoadExtensionSchemaUpdates"
+		]
+	},
+	"SpecialPages": {
+		"PatreonClient": "SpecialPatreonClient"
+	},
+	"MessagesDirs": {
+		"PatreonClient": [
+			"i18n"
+		]
+	},
+	"manifest_version": 1
+}
