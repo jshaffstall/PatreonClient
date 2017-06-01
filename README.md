@@ -53,6 +53,10 @@ The web updater will ask you for an upgrade key from your LocalSettings.php file
 
 At some point during the upgrade process it should give you a list of tasks it has done.  One of those should be the create of the patreon_user table.  
 
+*Login with Patreon*
+
+You should now see a Login with Patreon link along the top right of your wiki.  Logging in will create a MediaWiki user tied to that Patreon account.
+
 ## License
 
 LGPL (GNU Lesser General Public License) http://www.gnu.org/licenses/lgpl.html
